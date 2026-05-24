@@ -11,19 +11,6 @@ A full-stack digital health platform designed to bridge the healthcare gap in ru
 
 ---
 
-## 🎭 Demo Credentials
-
-| Role | Email | Password |
-|------|-------|----------|
-| **Admin** | admin@ruralhealthcare.com | Admin@123 |
-| **Doctor** | doctor@ruralhealthcare.com | Doctor@123 |
-| **Pharmacy** | pharmacy@ruralhealthcare.com | Pharmacy@123 |
-| **Patient** | patient@ruralhealthcare.com | Patient@123 |
-
-> **Note:** Doctor and Pharmacy accounts require Admin approval before login is possible.
-
----
-
 ## ✨ Features
 
 ### 🧑‍⚕️ Patient
@@ -72,43 +59,6 @@ A full-stack digital health platform designed to bridge the healthcare gap in ru
 
 ---
 
-## 📁 Project Structure
-
-```
-Rural_healthcare_Platform/
-├── netlify.toml              # Netlify build config
-├── .gitignore
-├── README.md
-├── frontend/                 # React + Vite SPA
-│   ├── src/
-│   │   ├── App.jsx           # Root component + Auth/Theme context
-│   │   ├── main.jsx
-│   │   ├── index.css         # Global styles (Tailwind + custom)
-│   │   ├── components/
-│   │   │   └── Sidebar.jsx   # Role-based navigation
-│   │   ├── pages/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── PatientDashboard.jsx
-│   │   │   ├── DoctorDashboard.jsx
-│   │   │   ├── PharmacyDashboard.jsx
-│   │   │   └── AdminDashboard.jsx
-│   │   └── utils/
-│   │       └── api.js        # Axios client with token refresh
-│   ├── package.json
-│   ├── vite.config.js
-│   ├── tailwind.config.js
-│   └── netlify.toml
-└── backend/                  # Spring Boot API
-    └── src/main/java/com/ruralhealthcare/
-        ├── controller/
-        ├── service/
-        ├── model/
-        ├── repository/
-        └── config/
-```
-
----
 
 ## ⚙️ Local Development Setup
 
@@ -146,6 +96,3 @@ npm run dev
 
 ---
 
-## 📄 License
-
-MIT License — feel free to use, modify and distribute.
